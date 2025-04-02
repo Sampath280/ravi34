@@ -1,3 +1,4 @@
+```c#
 using System;
 using System.Linq;
 using System.Threading.Tasks;
@@ -84,3 +85,5 @@ public class AzureService
         return await _resourceGroup.GetWebSiteAsync(appServiceName);
     }
 }
+
+```
